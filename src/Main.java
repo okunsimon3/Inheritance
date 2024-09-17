@@ -11,6 +11,7 @@ public class Main {
         workers.add(new SalaryWorker("Evan","Pugh","000005","Mr.",2002,22,45000));
         workers.add(new SalaryWorker("Brody","Osborne","000006","Mr.",2002,24,50000));
 
+        System.out.println("Weekly Pay for every worker:");
 
         int [] weeklyHours = {40, 50, 40};
         for (int week = 1; week <= 3; week++) {
